@@ -1,0 +1,11 @@
+// think of 3 arrays of toppings
+var Toppings1 = ["pepperoni", "sausage", "cheese"];
+var Toppings2 = ["coca cola", "dr pepper", "fanta"];
+var Toppings3 = ["small", "medium", "large"];
+// randomly pick 3 toppings
+var randomTopping1 = Toppings1[Math.floor(Math.random()*Toppings1.length)];
+var randomTopping2 = Toppings2[Math.floor(Math.random()*Toppings2.length)];
+var randomTopping3 = Toppings3[Math.floor(Math.random()*Toppings3.length)];
+// generate your own pizza!
+var yourPizza = "Here's your " + randomTopping1 + " " + randomTopping2 + " " +  randomTopping3 + " pizza!";
+yourPizza;
